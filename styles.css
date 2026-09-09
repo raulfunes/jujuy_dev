@@ -456,18 +456,6 @@ p {
   margin-top: 1.15rem;
 }
 
-.hero .btn-primary,
-.nav-cta.btn-primary {
-  background: #4e286d;
-  color: #fff;
-  box-shadow: 0 8px 20px -10px rgba(43, 30, 63, 0.5);
-}
-
-.hero .btn-primary:hover,
-.nav-cta.btn-primary:hover {
-  background: #38204e;
-}
-
 .hero .btn-ghost {
   background: var(--paper);
   border-color: #685875;
