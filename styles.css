@@ -382,20 +382,6 @@ p {
   z-index: 5;
 }
 
-.hero-sun {
-  position: absolute;
-  z-index: 2;
-  top: 12%;
-  left: 50%;
-  width: clamp(280px, 35vw, 480px);
-  aspect-ratio: 1;
-  border: 1px solid rgba(226, 89, 106, 0.13);
-  border-radius: 50%;
-  background: radial-gradient(circle at 50% 65%, rgba(238, 139, 60, 0.12), rgba(238, 139, 60, 0.02) 70%);
-  transform: translateX(-50%);
-  pointer-events: none;
-}
-
 .hero-content {
   position: relative;
   z-index: 7;
@@ -1791,21 +1777,27 @@ img.avatar {
     --terrain-width: max(980px, calc(var(--hero-height) * 1.25));
     --depth: 0.34;
     left: 49%;
+    top: 34%;
   }
 
   .hero-terrain-middle {
     --depth: 0.1;
-    top: 25%;
+    top: 22%;
   }
 
   .hero-terrain-front {
     --depth: -0.035;
+    top: 30.5%;
   }
 
   /* A taller frame keeps both sidewalls present in the portrait composition. */
   .hero-terrain-middle,
   .hero-terrain-front {
     --terrain-width: max(100%, 680px, calc(var(--hero-height) * 0.82));
+  }
+
+  .hero-terrain-front {
+    --terrain-width: max(100%, 704px, calc(var(--hero-height) * 0.84));
   }
 
   .hero-copy {
@@ -1825,7 +1817,7 @@ img.avatar {
   }
 
   .hero-content {
-    padding-top: max(calc(var(--nav-h) + 3rem), 17svh);
+    padding-top: max(calc(var(--nav-h) + 2rem), 15svh);
   }
 
   .hero h1 {
@@ -1837,9 +1829,11 @@ img.avatar {
   }
 
   .hero .lead {
-    max-width: 48ch;
-    padding: 0.65rem 1.15rem;
-    background: linear-gradient(90deg, transparent, rgba(247, 241, 239, 0.94) 9%, rgba(247, 241, 239, 0.94) 91%, transparent);
+    display: none;
+  }
+
+  .hero .actions {
+    margin-top: 0;
   }
 
 }
