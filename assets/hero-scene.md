@@ -16,7 +16,7 @@ Hasta 899 px se seleccionan las variantes de 960 px de ancho. Las tres descargas
 
 ## Composición y movimiento
 
-La página mantiene el scroll normal: la escena no es sticky ni agrega un tramo artificial de desplazamiento. El Hornocal comienza al 37 % de la altura del hero. En escritorio, su ancho mínimo de 1,55 veces la altura permite mantener cubierta la escena. Los cerros laterales empiezan al 14 % (22 % en móvil) y las rocas cercanas al 32 % (30,5 % en móvil). Sus valles centrales profundos dejan visible el Hornocal mientras los picos altos enmarcan el contenido.
+La página mantiene el scroll normal: la escena no es sticky ni agrega un tramo artificial de desplazamiento. El Hornocal comienza al 37 % de la altura del hero en escritorio y al 39 % en móvil. En escritorio, su ancho mínimo de 1,55 veces la altura permite mantener cubierta la escena. Los cerros laterales empiezan al 14 % (22 % en móvil) y las rocas cercanas al 32 % (30,5 % en móvil). Sus valles centrales profundos dejan visible el Hornocal mientras los picos altos enmarcan el contenido.
 
 En móvil los dos marcos tienen una proporción más vertical, con relaciones de aspecto de 1 y 1,15 respectivamente. La serranía conserva su proporción original, usa un ancho mínimo de 980 px y desplaza su centro un 1 % hacia la izquierda para mostrar más pliegues diagonales. Los marcos adaptan también su ancho a la altura de la ventana para cubrir el borde inferior durante el recorrido. La niebla ocupa solo el último 10 % del hero. El indicador de scroll se apoya sobre ella sin una caja exterior y concentra el contraste en la flecha circular.
 
