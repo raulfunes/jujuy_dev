@@ -1777,7 +1777,7 @@ img.avatar {
     --terrain-width: max(980px, calc(var(--hero-height) * 1.25));
     --depth: 0.34;
     left: 49%;
-    top: 34%;
+    top: 39%;
   }
 
   .hero-terrain-middle {
@@ -1817,10 +1817,11 @@ img.avatar {
   }
 
   .hero-content {
-    padding-top: max(calc(var(--nav-h) + 2rem), 15svh);
+    padding-top: max(4.5rem, 10svh);
   }
 
   .hero h1 {
+    margin-bottom: 0.75rem;
     font-size: clamp(3.4rem, 10vw, 5.5rem);
   }
 
